@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("https://wallpapertag.com/wallpaper/full/b/b/d/435914-most-popular-plain-blue-background-wallpaper-1920x1200-image.jpg");
+}
+
+
+nav{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+nav li{
+    display: inline-block;
+    width: 5.3em;
+}
+
+nav a{
+    color: whitesmoke;
+}
+
+#nav {
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* z-index: 10000; */
+    cursor: default;
+    height: 5.5em;
+    line-height: 3.5em;
+}#nav div a img{
+    height: 5.5em;
+    
+}
+#nav ol {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+    padding-left: 0;
+}
+
+#nav a {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #fff;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 1.25em;
+}
+
+    #nav a:hover {
+        color: #fff !important;
+        background: #bb3838;
+    }
+
+    #nav a.active {
+        background: #484848;
+    }
+
+        #nav a.active:before {
+            display: block;
+            position: absolute;
+            bottom: -0.6em;
+            left: 50%;
+            margin-left: -0.75em;
+            border-left: solid 0.75em transparent;
+            border-right: solid 0.75em transparent;
+            border-top: solid 0.6em #282828;
+}
+ #introduction{
+    padding: 10em 0 10em 0;
+    text-align: left;
+   
+    background-image: url("https://wallpapertag.com/wallpaper/full/b/b/d/435914-most-popular-plain-blue-background-wallpaper-1920x1200-image.jpg");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+   
+} 
+ table{
+    width: 100%;
+    border-collapse:collapse;
+} 
+
+ td .image{
+
+        border-radius: 100%;
+        width: 20em;
+        height: 20em;
+        margin: 0;
+} 
+td .pic{
+    margin-left: 100px;
+}
+
+td h5,h1,p{
+color:azure;
+
+}
+h1{
+    font-size: 72px;
+   
+}
+h5{
+    font-size: 40px;
+}
+
+
+#DownloadDiv{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+#downloadbtn {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #d6b212;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+  }      
+
+  #myName{
+    color: rgb(248, 114, 4);;
+  }
+
+   #Sum{
+    color: chartreuse;
+    padding-left: 270px;
+    padding-top: 50px;
+  }
+
+  #goal{
+    color: chartreuse;
+    padding-left: 290px;
+    padding-top: 50px;
+  }
+
+  #abtText{
+    color: whitesmoke;
+    padding-left: 360px;
+    padding-top: 100px;
+}
+
+#Fname{
+    color: rgb(248, 114, 4);
+    padding-left: 380px;
+}
+
+#P1{
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-left: 380px;
+}
+
+#ID{
+    color: rgb(248, 114, 4);
+    padding-left: 380px;
+    padding-top: 30px;
+}
+
+#P2{
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-left: 380px;
+}
+
+#DOB{
+    color: rgb(248, 114, 4);
+    padding-left: 380px;
+    padding-top: 30px;
+}
+
+#P3{
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-left: 380px;
+}
+
+#Nat{
+    color: rgb(248, 114, 4);
+    padding-left: 380px;
+    padding-top: 30px;
+}
+
+#P4{
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-left: 380px;
+}
+
+#Lang{
+    color: rgb(248, 114, 4);
+    padding-left: 380px;
+    padding-top: 30px;
+}
+
+#P5{
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-left: 380px;
+}
+
+#abt{
+    color: chartreuse;
+    padding-left: 240px;
+}
+
+#info{
+    color: whitesmoke;
+    padding-left: 500px;
+    padding-top: 40px;
+}
+
+#skillsHead{
+    color:chartreuse;
+    padding-top: 130px;
+    padding-left: 760px;
+}
+
+#skills{
+    color: whitesmoke;
+    padding-left: 770px;
+    padding-top: 15px;
+}
+
+#CT{
+    padding-bottom: 20px;
+}
+
+#TL{
+    padding-bottom: 20px;
+}
+
+#Multi{
+    padding-bottom: 20px;
+}
+
+#Org{
+    padding-bottom: 20px;
+}
+
+#MS{
+    padding-bottom: 20px;
+}
+
+#Ex{
+    padding-bottom: 20px;
+}
+
+#Html{
+    padding-bottom: 20px;
+}
+
+#Html{
+    padding-bottom: 20px;
+}
+
+
+#Css{
+    padding-bottom: 20px;
+}
+
+#JS{
+    padding-bottom: 20px;
+}

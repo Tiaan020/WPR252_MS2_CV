@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <%- include(`./partials/nav.ejs`) %>
+    
+</head>
+<body>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("https://wallpapertag.com/wallpaper/full/b/b/d/435914-most-popular-plain-blue-background-wallpaper-1920x1200-image.jpg");
+}
+
+
+nav{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+nav li{
+    display: inline-block;
+    width: 5.3em;
+    padding-top: 10px;
+}
+
+nav a{
+    color: whitesmoke;
+}
+
+nav {
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    cursor: default;
+    height: 5.5em;
+    line-height: 3.5em;
+}
+nav div a img{
+    height: 5.5em;
+    
+}
+nav ol {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 0;
+
+}
+nav a {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #fff;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 1.25em;
+}
+
+    nav a:hover {
+        color: #fff !important;
+        background: #bb3838;
+    }
+
+    nav a.active {
+        background: #484848;
+    }
+
+        nav a.active:before {
+            display: block;
+            position: absolute;
+            bottom: -0.6em;
+            left: 50%;
+            margin-left: -0.75em;
+            border-left: solid 0.75em transparent;
+            border-right: solid 0.75em transparent;
+            border-top: solid 0.6em #282828;
+}
+
+#contact{
+    padding-top: 110px;
+    padding-left: 700px;
+    color: whitesmoke;
+}
+
+h1{
+    color: chartreuse;
+    padding-bottom: 20px;
+}
+
+#para1{
+    padding-top: 30px;
+}
+
+#para2{
+    padding-top: 30px;
+}
+
+#para3{
+    padding-top: 30px;
+}
+
+#copyright{
+    padding-top: 520px;
+    padding-left: 600px;
+    color: whitesmoke;
+}
+
+#Fname{
+    padding-left: 90px;
+}
+</style>
+
+header>  
+    <nav>
+   
+       <div id="cvPic">          
+            <a id="CV" href="#"><img src="images/OIP.jpeg" alt=""></a>                
+       </div>
+   
+       <ol>
+           <li> <a href="/">Home</a> </li>
+           <li> <a href="/about">About</a> </li>
+           <li> <a href="/skills">Skills</a> </li>
+           <li> <a href="/projects">Projects</a> </li>
+           <li> <a href="/contact">Contact</a> </li>
+       </ol> 
+   </nav> 
+   </header>
+
+    <div id="contact">
+        <h1>Contact me</h1>
+        <p id="para1">Email: tivdwalt020@gmail.com</p>
+        <p id="para2">Alternative Email: yectikhaze@gmail.com</p>
+        <p id="para3">Phone: 0820452661</p>
+    </div>
+
+    <footer id="copyright">&copy; 
+        2022 Copyright: CV Website. All rights reserved
+        <br>
+        <div id="Fname">
+         Tiaan Van Der Walt
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script> function moreFunction(){
+        var dot = document.getElementById("dot");
+        var moreText = document.getElementById("expand");
+        var btnText = document.getElementById("moreBtn");
+    
+        if (dot.style.display === "none"){
+            dot.style.display = "inline";
+            btnText.innerHTML = "See More"
+             moreText.style.display = "none";
+        } else{
+            dot.style.display = "none";
+            btnText.innerHTML = "Read less"
+            moreText.style.display = "inline";
+        }
+    }</script>
+
+<script> function moreeFunction(){
+    var points = document.getElementById("points");
+    var exText = document.getElementById("ex");
+    var btnMore = document.getElementById("moreeBtn");
+
+    if (points.style.display === "none"){
+        points.style.display = "inline";
+        btnMore.innerHTML = "See More."
+         exText.style.display = "none";
+    } else{
+        points.style.display = "none";
+        btnMore.innerHTML = "Read less"
+        exText.style.display = "inline";
+    }
+}</script>
+
+<script> function moreFunctionn(){
+    var dots = document.getElementById("dots");
+    var expanderText = document.getElementById("expander");
+    var btnMoree = document.getElementById("moreBtnn");
+
+    if (dots.style.display === "none"){
+        dots.style.display = "inline";
+        btnMoree.innerHTML = "See More."
+         expanderText.style.display = "none";
+    } else{
+        dots.style.display = "none";
+        btnMoree.innerHTML = "Read less"
+        expanderText.style.display = "inline";
+    }
+}</script>
+</head>
+
+<%- include(`./partials/nav.ejs`) %>
+
+
+<body>
+    
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("https://wallpapertag.com/wallpaper/full/b/b/d/435914-most-popular-plain-blue-background-wallpaper-1920x1200-image.jpg");
+}
+
+
+nav{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+nav li{
+    display: inline-block;
+    width: 5.3em;
+    padding-top: 10px;
+}
+
+nav a{
+    color:whitesmoke;
+}
+
+nav {
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    cursor: default;
+    height: 5.5em;
+    line-height: 3.5em;
+    padding-top: 0px;
+}
+nav div a img{
+    height: 5.5em;
+    
+}
+nav ol {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 0;
+}
+
+nav a {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #fff;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 1.25em;
+}
+
+    nav a:hover {
+        color: #fff !important;
+        background: #bb3838;
+    }
+
+    nav a.active {
+        background: #484848;
+    }
+
+        nav a.active:before {
+            display: block;
+            position: absolute;
+            bottom: -0.6em;
+            left: 50%;
+            margin-left: -0.75em;
+            border-left: solid 0.75em transparent;
+            border-right: solid 0.75em transparent;
+            border-top: solid 0.6em #282828;
+        }
+
+    #expand {
+        display: none;
+    }
+
+    #ex{
+        display: none;
+    }
+
+    #expander{
+        display: none;
+    }
+
+  #moreBtn{
+    width: 100px;
+    height: 30px;
+   background-color: yellow;
+   
+  }
+
+  #more{
+    padding-left: 300px;
+  }
+
+  #moreeBtn{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+  }
+
+  #moreBtnn{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+  } 
+
+        #projects{
+            padding-top: 25px;
+            padding-left: 400px;
+            color: whitesmoke;
+        }
+
+        h1{
+            color: chartreuse;
+            padding-top: 110px;
+            padding-left: 680px;
+        }
+
+        #p1{
+            padding-left: 300px;
+            color: rgb(248, 114, 4);
+            font-size:larger;
+        }
+
+        #p2{
+            padding-left: 300px;
+            padding-top: 60px;
+            color: rgb(248, 114, 4);
+            font-size:larger;
+        }
+
+        #p3{
+            padding-left: 300px;
+            padding-top: 60px;
+            color: rgb(248, 114, 4);
+            font-size:larger;
+        }
+
+
+
+        #pic1{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic2{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic3{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic4{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic5{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic6{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic7{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic8{
+             height: 30em;
+             width: 40em;
+             
+        }
+
+        #pic9{
+             height: 30em;
+             width: 60em;
+             
+        }
+
+        #pic10{
+             height: 30em;
+             width: 60em;
+             
+        }
+
+        #pic11{
+             height: 30em;
+             width: 60em;
+             
+        }
+
+        #pic12{
+             height: 30em;
+             width: 60em;
+             
+        }
+
+
+
+    </style>
+
+<header>  
+    <nav>
+   
+       <div id="cvPic">          
+            <a id="CV" href="#"><img src="images/OIP.jpeg" alt=""></a>                
+       </div>
+   
+       <ol>
+           <li> <a href="/">Home</a> </li>
+           <li> <a href="/about">About</a> </li>
+           <li> <a href="/skills">Skills</a> </li>
+           <li> <a href="/projects">Projects</a> </li>
+           <li> <a href="/contact">Contact</a> </li>
+       </ol> 
+   </nav> 
+   </header>
+
+        <h1>Projects</h1>
+
+        <div id="projects">
+        <ol>
+            <li id="p1">Project 1</li>
+            <div>
+                <img id="pic1"src="/images/Project1.1.png" alt="">
+                <img id="pic2"src="/images/Project1.2.png" alt="">
+                <img id="pic3"src="/images/Project1.3.png" alt="">
+                <img id="pic4"src="/images/Project1.4.png" alt="">
+            </div>
+            <p>
+            <span id="dot">...</span> <span id="expand">Above is a C# Windows Form Application I built representing a banking system.</span></p>
+            
+           <div id="more">
+            <button onclick="moreFunction()" id="moreBtn">See More</button>
+           </div>
+
+            <li id="p2">Project 2</li>
+            <div>
+                <img id="pic5"src="/images/Project2.1.png" alt="">
+                <img id="pic6"src="/images/Project2.2.png" alt="">
+                <img id="pic7"src="/images/Project2.3.png" alt="">
+                <img id="pic8"src="/images/Project2.4.png" alt="">
+            </div>
+            <p>
+            <span id="points">...</span> <span id="ex">Above is a C# Windows Form Application I built for adding, updating and deleting a Student.</span></p>
+
+               <div id="more">
+                <button onclick="moreeFunction()" id="moreeBtn">See More.</button>
+               </div>
+
+            
+            <li id="p3">Project 3</li>
+            <div>
+                <img id="pic9"src="/images/Project3.1.png" alt="">
+                <img id="pic10"src="/images/Project3.2.png" alt="">
+                <img id="pic11"src="/images/Project3.3.png" alt="">
+                <img id="pic12"src="/images/Project3.4.png" alt="">
+            </div>
+
+             <p>
+            <span id="dots">...</span> <span id="expander">Above is a C++ eye-tracking Application that I am currently working on.
+           <br>I am programming the Application to detect a user's face and to track a user's eyes.
+            </span>
+        </p>
+
+            <div id="more">
+                <button onclick="moreFunctionn()" id="moreBtnn">See More.</button>
+            </div>
+            
+            
+        </ol>
+    </div>
+
+</body>
+</html>
